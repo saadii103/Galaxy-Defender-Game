@@ -157,10 +157,3 @@ Name: Saad | Score: 120
 * 💀 Game ends at zero lives
 * 💾 Score is saved automatically
 
----
-
-If you want, I can also:
-🎨 Improve graphics
-🔥 Add power-ups / boss levels
-🐞 Fix bugs in your code
-📊 Or convert this into a report/PDF for submission
