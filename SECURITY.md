@@ -1,84 +1,51 @@
-# 🔐 Security Policy – Galaxy Defender Game
+🔐 Security Policy – Galaxy Defender
+🧾 Project Information
 
-## 🧾 Supported Version
+🎮 Project Name: Galaxy Defender (C++ OpenGL Game)
+👨‍💻 Maintainer: Muhammad Saad Shafiq
+📧 Contact Email: m250103@mtn.nu.edu.pk
 
-This security policy applies to the latest version of:
-🚀 **Galaxy Defender (C++ / OpenGL / GLUT Game)**
+🚨 Reporting a Vulnerability
 
----
+If you find any security issue or unexpected behavior in the game, please report it responsibly.
 
-# 🚨 Reporting a Vulnerability
+📩 How to Report
 
-If you discover a security issue, bug, or unexpected behavior, please report it responsibly.
+Please contact the maintainer directly:
 
-## 📩 How to Report
+📧 Email: m250103@mtn.nu.edu.pk
+🐛 OR create a private GitHub issue (if available)
+⚠️ What to Report
 
-Please contact the project maintainer via:
+Please report issues like:
 
-* 📧 Email: [your-email@example.com](mailto:your-email@example.com) *(replace with your real email)*
-* 📄 OR open a private GitHub issue (if enabled)
+💥 Game crashes or segmentation faults
+🔓 File saving/loading issues (e.g., data.txt)
+🧠 Memory leaks or performance problems
+🎮 Bugs in controls or input handling
+📂 Any behavior that breaks normal gameplay
+🚫 What NOT to Report
+🎮 Game difficulty or balancing issues
+✨ Feature requests (use Issues tab instead)
+🎨 UI/graphics improvements
+🔊 Sound or visual suggestions
+🔄 Response Policy
+⏱️ We aim to respond as soon as possible
+🛠️ Valid issues will be fixed in future updates
+🙌 Contributions are always appreciated
+🛡️ Developer Security Notes
 
----
+Contributors should ensure:
 
-# ⚠️ What to Report
+✔️ Safe handling of arrays (bullets/enemies)
+✔️ No buffer overflow risks
+✔️ Proper input validation (player name input)
+✔️ Stable game loop (Display/Timer functions)
+✔️ Safe file operations for score saving
+🎮 Game Safety
+✔️ Offline game (no internet usage)
+✔️ Only writes local file: data.txt
+✔️ Safe for Ubuntu/Linux systems
+🙌 Responsible Disclosure
 
-You should report:
-
-* 💥 Game crashes or segmentation faults
-* 🔓 File handling issues (e.g., score saving problems)
-* 🧠 Memory leaks or performance issues
-* 🎮 Input handling bugs that break gameplay
-* 📂 Any unexpected system behavior caused by the game
-
----
-
-# 🚫 What NOT to Report
-
-* 🎮 Gameplay difficulty issues
-* ✨ Feature requests (use “Issues” instead)
-* 🎨 UI/graphics suggestions
-* 🔊 Sound or visual improvements
-
----
-
-# 🔄 Response Time
-
-* ⏱️ We aim to respond within a reasonable time (usually a few days)
-* 🛠️ Verified issues will be fixed in future updates
-
----
-
-# 🛡️ Security Best Practices (For Developers)
-
-If you contribute to this project, please follow:
-
-* ✔️ Avoid unsafe file operations
-* ✔️ Validate all user inputs (e.g., player name)
-* ✔️ Prevent buffer overflows
-* ✔️ Keep memory usage optimized (bullets/enemies arrays)
-* ✔️ Avoid crashes during game loop (Timer/Display functions)
-
----
-
-# 🎮 Game Safety Notes
-
-This is a local offline game:
-
-* ❌ No internet communication
-* ❌ No external data transfer
-* ✔️ Fully safe to run on Ubuntu/Linux systems
-* ✔️ Only writes local score file (`data.txt`)
-
----
-
-# 🙌 Responsible Disclosure
-
-We appreciate responsible reporting of issues to improve the game experience for all players.
-
----
-
-# 📌 Summary
-
-✔️ Report bugs privately
-✔️ Do not exploit issues publicly
-✔️ Help improve Galaxy Defender 🚀
+We request all security issues be reported privately to help improve the game safely and responsibly.
