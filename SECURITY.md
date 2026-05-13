@@ -1,51 +1,69 @@
-🔐 Security Policy – Galaxy Defender
-🧾 Project Information
+SECURITY POLICY
+1. Purpose
 
-🎮 Project Name: Galaxy Defender (C++ OpenGL Game)
-👨‍💻 Maintainer: Muhammad Saad Shafiq
-📧 Contact Email: m250103@mtn.nu.edu.pk
+This security policy outlines the procedure for reporting and handling security-related issues in the Galaxy Defender (C++ OpenGL Game) project.
 
-🚨 Reporting a Vulnerability
+2. Project Information
 
-If you find any security issue or unexpected behavior in the game, please report it responsibly.
+Project Name: Galaxy Defender
+Technology Stack: C++ with OpenGL/GLUT
+Maintainer: Muhammad Saad Shafiq
+Contact Email: m250103@mtn.nu.edu.pk
 
-📩 How to Report
+3. Scope
 
-Please contact the maintainer directly:
+This policy applies to all versions of the Galaxy Defender project, including source code, build files, and associated documentation.
 
-📧 Email: m250103@mtn.nu.edu.pk
-🐛 OR create a private GitHub issue (if available)
-⚠️ What to Report
+4. Reporting a Vulnerability
 
-Please report issues like:
+If you identify a security vulnerability, bug, or unexpected behavior, you are requested to report it responsibly.
 
-💥 Game crashes or segmentation faults
-🔓 File saving/loading issues (e.g., data.txt)
-🧠 Memory leaks or performance problems
-🎮 Bugs in controls or input handling
-📂 Any behavior that breaks normal gameplay
-🚫 What NOT to Report
-🎮 Game difficulty or balancing issues
-✨ Feature requests (use Issues tab instead)
-🎨 UI/graphics improvements
-🔊 Sound or visual suggestions
-🔄 Response Policy
-⏱️ We aim to respond as soon as possible
-🛠️ Valid issues will be fixed in future updates
-🙌 Contributions are always appreciated
-🛡️ Developer Security Notes
+Reporting Channels:
+Email: m250103@mtn.nu.edu.pk
+GitHub private issue (if available)
 
-Contributors should ensure:
+Please include the following details in your report:
 
-✔️ Safe handling of arrays (bullets/enemies)
-✔️ No buffer overflow risks
-✔️ Proper input validation (player name input)
-✔️ Stable game loop (Display/Timer functions)
-✔️ Safe file operations for score saving
-🎮 Game Safety
-✔️ Offline game (no internet usage)
-✔️ Only writes local file: data.txt
-✔️ Safe for Ubuntu/Linux systems
-🙌 Responsible Disclosure
+Description of the issue
+Steps to reproduce the problem
+Expected and actual behavior
+Screenshots or logs (if applicable)
+5. Types of Issues to Report
 
-We request all security issues be reported privately to help improve the game safely and responsibly.
+The following issues are considered valid security or stability concerns:
+
+Application crashes or segmentation faults
+Memory management issues (e.g., leaks, invalid access)
+File handling vulnerabilities (e.g., score file corruption)
+Input validation issues
+Game logic errors affecting stability
+6. Out of Scope
+
+The following are not considered security vulnerabilities:
+
+Gameplay difficulty or balancing concerns
+Feature requests or enhancements
+Graphical or UI improvements
+Audio or visual design suggestions
+7. Response Process
+All reports will be reviewed in a timely manner.
+Confirmed issues will be prioritized based on severity.
+Fixes will be included in subsequent updates where applicable.
+Communication may be maintained for clarification if required.
+8. Developer Security Guidelines
+
+Contributors and developers must ensure:
+
+Proper bounds checking for arrays (e.g., bullets, enemies)
+Prevention of buffer overflows
+Safe handling of user input (e.g., player name input)
+Stable execution of game loops (Display and Timer functions)
+Secure file handling for persistent data storage
+9. System Environment
+The application operates in an offline environment
+No network communication is implemented
+All data is stored locally in files (e.g., data.txt)
+The project is designed for Linux-based systems (Ubuntu)
+10. Responsible Disclosure
+
+We encourage responsible disclosure of vulnerabilities. All security-related issues should be reported privately to the maintainer to ensure proper assessment and resolution before public disclosure.
